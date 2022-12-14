@@ -16,8 +16,8 @@ function Hero(){
                     font-serif uppercase max-w-[50%] mx-auto mt-5 lg:mt-8"><Link to="portfolio" spy={true} smooth={true} duration={700}>see My Work</Link></button>
                 </div>
                 <div className='flex justify-center space-x-5 text-5xl pt-10'>
-                <a href='https://github.com/jashansingh303' target="_blank"><AiFillGithub className="hover:scale-150 hover:bg-orange-500 rounded-full duration-150"/></a> 
-                <a href='https://www.linkedin.com/in/jashandeep-singh-/' target="_blank"><AiFillLinkedin className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150"/></a>
+                <a href='https://github.com/jashansingh303' target="_blank" rel="noreferrer"><AiFillGithub className="hover:scale-150 hover:bg-orange-500 rounded-full duration-150"/></a> 
+                <a href='https://www.linkedin.com/in/jashandeep-singh-/' target="_blank" rel="noreferrer"><AiFillLinkedin className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150"/></a>
                 <AiFillYoutube/>
             </div>
             </div>
