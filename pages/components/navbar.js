@@ -12,14 +12,15 @@ function NavBar() {
   }
 
   return(
-    <m.div className='flex justify-between items-center h-24 text-white mx-auto font-serif sticky cursor-pointer'>
+    <m.div className='flex justify-between items-center h-24 text-white mx-auto font-serif sticky top-0 z-10 cursor-pointer scroll-smooth'
+    >
 
         <div className='flex justify-between w-full fixed h-24 border-b border-b-orange-500 p-4 bg-gray-800 z-100' >
             <h1 className='md:w-full font-bold uppercase text-orange-500 '><Link to="hero" spy={true} smooth={true} duration={500}>
                 <Image src='/logo.png 'alt='' width={100} height={100} className="mt-[-21px] border-b border-b-orange-500 "/></Link>
             </h1>
             <ul className=' uppercase space-x-10 hidden md:flex text-3xl'>
-                <li className='p-4 hover:scale-125 duration-100 '><Link to="about" spy={true} smooth={true} duration={700}>About</Link></li>
+                <li className='p-4 hover:scale-125 duration-100 '><Link to="about" spy={true} smooth={true} duration={700} offset={-94}>About</Link></li>
                 <li className='p-4 hover:scale-125 duration-100 '><Link to="portfolio" spy={true} smooth={true} duration={700}>Portfolio</Link></li>
                 <li className='p-4 hover:scale-125 duration-100 '><Link to="skills" spy={true} smooth={true} duration={700}>Skills</Link></li>
                 <li className='p-4 hover:scale-125 duration-100 '><Link to="contact" spy={true} smooth={true} duration={700}>Contact</Link></li>
@@ -40,10 +41,10 @@ function NavBar() {
             </Link>
         </h1>
         <ul className='p-4 uppercase'>
-          <li className='p-4 border-b hover:scale-125 duration-100 '><Link to="about" spy={true} smooth={true} duration={700} offset={-270} onClick={handleNav}>About</Link></li>
+          <li className='p-4 border-b hover:scale-125 duration-100 '><Link to="about" spy={true} smooth={true} duration={700} offset={-50} onClick={handleNav} >About</Link></li>
           <li className='p-4 border-b hover:text-orange-500 duration-100'><Link to="portfolio" spy={true} smooth={true} duration={500} onClick={handleNav} >Portfolio</Link></li>
           <li className='p-4 border-b hover:text-orange-500 duration-100'><Link to='skills' spy={true} smooth={true} duration={500}  onClick={handleNav} offset={70}>Skills</Link></li>
-          <li className='p-4 border-b hover:text-orange-500 duration-100'><Link to="contact" spy={true} smooth={true} duration={500} onClick={handleNav}>Contact</Link></li>
+          <li className='p-4 border-b hover:text-orange-500 duration-100'><Link to="contact" spy={true} smooth={true} duration={500} onClick={handleNav} offset={115}>Contact</Link></li>
         </ul>
       </div>
 
