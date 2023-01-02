@@ -14,7 +14,7 @@ function Project2(props) {
         <li>{props.tech2}</li>
       </ul>
       <ul className='pt-5 flex space-x-10 justify-center text-white'>
-        <m.li whileTap={{scale:0.9}} whileHover={{scale: 1.2}} className='p-3 bg-orange-600 rounded-lg'><a target="_blank" href={props.url2}>Code</a></m.li>
+        <m.li whileTap={{scale:0.9}} whileHover={{scale: 1.2}} className='p-3 bg-orange-600 rounded-lg'><a target="_blank"  rel="noreferrer" href={props.url2}>Code</a></m.li>
       </ul>
   </m.div>
     )
