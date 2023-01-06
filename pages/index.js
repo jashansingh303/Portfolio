@@ -70,7 +70,7 @@ export default function Home() {
         <m.div className='' initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}}  transition={{duration:1, ease:'easeInOut'}}>
             <Project2 name="Parstagram" description="Parstagram is a photo sharing app similar to Instagram using Parse as its backend." tech1="Kotlin" tech2="Android Studio" url2="https://github.com/jashansingh303/Parstagram" className="flex-1"/>
         </m.div>
-        <m.div initial={{opacity:0}} whileInView={{opacity:1}}  transition={{duration:1, ease:'easeInOut'}}>
+        <m.div initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}}  transition={{duration:1.2, ease:'easeInOut'}}>
             <Project2 name="Simple Twitter" description="SimpleTwitter is an android app that allows a user to view his Twitter timeline. The app utilizes Twitter REST API." tech1="Kotlin" tech2="Android Studio" url2="https://github.com/jashansingh303/SimpleTwitter" className="flex-1"/>
             </m.div>
         </div>

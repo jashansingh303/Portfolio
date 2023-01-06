@@ -6,7 +6,7 @@ import {motion as m} from "framer-motion"
 
 function Hero(){
     return(
-    <m.section initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration: 1, ease:"easeInOut"}} className='hero min-h-screen uppercase font-mono ease-in duration-200 mt-[-40px] bg-gray-800' id="hero" > 
+    <m.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 1.5, ease:"easeIn"}} className='hero min-h-screen uppercase font-mono ease-in duration-200 mt-[-40px] bg-gray-800' id="hero" > 
         <div className=''>
             <div className='max-w-[1000px] w-full h-screen mx-auto text-center flex flex-col justify-center uppercase'>
                 <p className='text-orange-500 font-bold lg:text-[102px] md:text-6xl sm:text-5xl text-4xl py-6 hover:animate-pulse cursor-pointer '>Jashandeep Singh</p>
@@ -23,7 +23,7 @@ function Hero(){
             </div>
 
         </div>
-    </m.section>
+    </m.div>
     )
 }
 
