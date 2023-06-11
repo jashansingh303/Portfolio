@@ -86,7 +86,7 @@ export default function Home() {
 
         <div className='h-4'></div>  
 
-        <m.section id='contact' className='bg-gray-800 min-h-screen lg:pt-40 pt-1 pb-3' initial={{ opacity:0, x:"-100%"}} whileInView={{ opacity:1, x:"0"}}  transition={{duration:1.5 , ease: "easeIn"}}>
+        <m.section viewport={{ once: true }} id='contact' className='bg-gray-800 min-h-screen lg:pt-20 pt-1 pb-3' initial={{ opacity:0, x:"-100%"}} whileInView={{ opacity:1, x:"0"}}  transition={{duration:1.5 , ease: "easeIn"}}>
           <ContactUs/>
         </m.section>
 
