@@ -6,11 +6,11 @@ import {motion as m} from "framer-motion"
 
 function Skills(){
     return(
-        <m.div 
+        <m.div viewport={{ once: true }}
         className="min-h-screen pt-32" >
-            <m.h1 initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration:1.4, ease:"easeInOut"}}
+            <m.h1 viewport={{ once: true }} initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration:1.4, ease:"easeInOut"}}
             className="uppercase text-center lg:text-8xl md:text-5xl text-4xl py-[25%] lg:py-[10%] text-orange-500">PROFESSIONAL skills</m.h1>
-            <m.div initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration:1.2, ease:"easeInOut"}} className="grid grid-cols-2 pt-10 lg:flex ">
+            <m.div viewport={{ once: true }} initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration:1.2, ease:"easeInOut"}} className="grid grid-cols-2 pt-10 lg:flex ">
                 <m.div 
                     className="mx-auto bg-white lg:p-10 p-6 mb-3 text-orange-500 rounded-lg lg:hover:scale-150 duration-150">
                     <AiFillHtml5 className="text-7xl"/>

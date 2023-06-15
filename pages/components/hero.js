@@ -6,7 +6,7 @@ import {motion as m} from "framer-motion"
 
 function Hero(){
     return(
-    <m.div initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 1.5, ease:"easeIn"}} className='hero min-h-screen uppercase font-mono ease-in duration-200 mt-[-40px] bg-gray-800' id="hero" > 
+    <m.div  initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration: 1.5, ease:"easeIn"}} className='hero min-h-screen uppercase font-mono ease-in duration-200 mt-[-40px] bg-gray-800' id="hero" > 
         <div className=''>
             <div className='max-w-[1000px] w-full h-screen mx-auto text-center flex flex-col justify-center uppercase'>
                 <p className='text-orange-500 font-bold lg:text-[102px] md:text-6xl sm:text-5xl text-4xl py-6 hover:animate-pulse cursor-pointer '>Jashandeep Singh</p>
@@ -17,8 +17,9 @@ function Hero(){
                 </div>
                 <div className='flex justify-center space-x-5 text-5xl pt-10'>
                 <a href='https://github.com/jashansingh303' target="_blank" rel="noreferrer"><AiFillGithub className="hover:scale-150 hover:bg-orange-500 rounded-full duration-150"/></a> 
+                <img className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150 h-12 w-10" src="icons8-resume-80.png"/>
                 <a href='https://www.linkedin.com/in/jashandeep-singh-/' target="_blank" rel="noreferrer"><AiFillLinkedin className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150"/></a>
-                <AiFillYoutube/>
+                
             </div>
             </div>
 

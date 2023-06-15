@@ -19,9 +19,9 @@ const ContactUs = () => {
 
   return (
     <div>
-      <m.h1 viewport={{ once: true }} initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration:1.4, ease:"easeInOut"}}
-      className="uppercase text-center lg:text-8xl md:text-5xl text-4xl py-[20%] lg:py-[5%] text-orange-500">Contact Me</m.h1>
-      <form className="mt-[200px] lg:mt-[50px] px-[25px] bg-white text-black rounded-lg flex flex-col mx-auto leading-10 max-w-[1000px] uppercase">
+      <m.h1 viewport={{ once: true }} initial={{opacity:0, x:"-100%"}} whileInView={{opacity:1, x:"0"}} transition={{duration:1.4, ease:"easeIn"}}
+      className="uppercase text-center lg:text-8xl md:text-5xl text-4xl pt-[60%] lg:py-[5%] text-orange-500">Contact Me</m.h1>
+      <form className="mt-[100px] lg:mt-[50px] mb-[50px] px-[25px] bg-white text-black rounded-lg flex flex-col mx-auto leading-10 max-w-[1000px] uppercase">
         <label className='mt-4'>Name</label>
         <input type="text" name="user_name" className='text-black justify-center rounded-lg pl-3 bg-gray-300'/>
         <label>Email</label>
