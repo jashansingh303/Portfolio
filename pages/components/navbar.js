@@ -16,8 +16,10 @@ function NavBar() {
     >
 
         <div className='flex justify-between w-full fixed h-24 border-b border-b-orange-500 p-4 bg-gray-800 z-100' >
-            <h1 className='md:w-full font-bold uppercase text-orange-500 '><Link to="hero" spy={true} smooth={true} duration={500}>
-                <Image src='/logo.png 'alt='' width={100} height={100} className="mt-[-21px] border-b border-b-orange-500 "/></Link>
+            <h1 className='md:w-full font-bold uppercase text-orange-500 '>
+              <Link to="hero" spy={true} smooth={true} duration={500}>
+                <img src='/logo.png 'alt='' width={100} height={100} className="mt-[-21px] border-b border-b-orange-500 "/>
+              </Link>
             </h1>
             <ul className=' uppercase space-x-10 hidden md:flex text-3xl'>
                 <li className='p-4 hover:scale-125 duration-100 '><Link to="about" spy={true} smooth={true} duration={700} offset={-94}>About</Link></li>

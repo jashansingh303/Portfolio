@@ -17,7 +17,7 @@ function Hero(){
                 </div>
                 <div className='flex justify-center space-x-5 text-5xl pt-10'>
                 <a href='https://github.com/jashansingh303' target="_blank" rel="noreferrer"><AiFillGithub className="hover:scale-150 hover:bg-orange-500 rounded-full duration-150"/></a> 
-                <img className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150 h-12 w-10" src="icons8-resume-80.png"/>
+                <a href='https://github.com/jashansingh303' target="_blank" rel="noreferrer"><img className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150 h-12 w-10" src="icons8-resume-80.png"/></a>
                 <a href='https://www.linkedin.com/in/jashandeep-singh-/' target="_blank" rel="noreferrer"><AiFillLinkedin className="hover:scale-150 hover:bg-orange-500 rounded-sm duration-150"/></a>
                 
             </div>
