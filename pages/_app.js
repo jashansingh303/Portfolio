@@ -1,16 +1,5 @@
 import '../styles/globals.css'
-import { AnimatePresence } from 'framer-motion'
 
-function MyApp({ Component, pageProps, router }) {
-return(
-    <div>
-      <AnimatePresence>
-        <Component {...pageProps} />
-      </AnimatePresence>
-
-
-    </div>
-    
-)}
-
-export default MyApp
+export default function MyApp({ Component, pageProps }) {
+  return <Component {...pageProps} />
+}
