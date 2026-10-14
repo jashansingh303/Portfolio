@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { useState } from 'react'
-import vortexPreview from '../public/vortex-dashboard.png'
 
 const projects = [
   {
@@ -108,8 +107,9 @@ export default function Projects() {
           <article key={project.id} className="featured-project" aria-labelledby={`project-${project.id}`}>
             <figure className="project-preview">
               <a href="/vortex-dashboard.png" target="_blank" rel="noreferrer" aria-label="View full-size Vortex main dashboard screenshot (demo data)">
-                <Image src={vortexPreview} alt="Vortex main dashboard with ranked progress, recent match rows, and repeat teammates using demo data"
-                  sizes="(max-width: 700px) 100vw, 600px" />
+                {/* Serve this static screenshot directly; the host's image optimizer may be unavailable. */}
+                <Image src="/vortex-dashboard.png" width={1460} height={920} unoptimized
+                  alt="Vortex main dashboard with ranked progress, recent match rows, and repeat teammates using demo data" />
               </a>
               <figcaption>Main dashboard · Demo data <span aria-hidden="true">↗</span></figcaption>
             </figure>
