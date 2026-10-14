@@ -16,7 +16,7 @@ export default function Home() {
     </Head>
     <a className="skip-link" href="#main">Skip to content</a>
     <NavBar />
-    <main id="main" className="site-container"><Hero /><Projects /><About /><Skills /><Contact /></main>
+    <main id="main" className="site-container"><Hero /><Projects /><Skills /><About /><Contact /></main>
     <footer className="site-container footer">
       <a href="#hero" className="footer-name">Jashandeep Singh<span aria-hidden="true">.</span></a>
       <p>Built with care in New York City.</p>

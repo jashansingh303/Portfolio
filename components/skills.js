@@ -23,7 +23,7 @@ const groups = [
 
 export default function Skills() {
   return <section id="skills" className="section skills-section" aria-labelledby="skills-title">
-    <div className="section-heading"><div><p className="eyebrow section-label">03 / My toolkit</p><h2 id="skills-title">Tools of the trade<span className="accent">.</span></h2></div><p>The languages, tools, and AI workflows<br />behind my projects.</p></div>
+    <div className="section-heading"><div><p className="eyebrow section-label">02 / My toolkit</p><h2 id="skills-title">Tools of the trade<span className="accent">.</span></h2></div><p>The languages, tools, and AI workflows<br />behind my projects.</p></div>
     <div className="skills-grid">{groups.map(group => <div className="skill-group" key={group.title}><span className="eyebrow skill-number">{group.number}</span><h3>{group.title}</h3><p>{group.description}</p><ul>{group.skills.map(skill => <li key={skill}>{skill}</li>)}</ul></div>)}</div>
   </section>
 }
